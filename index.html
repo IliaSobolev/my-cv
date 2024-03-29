@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      color: white;
+      font-family: "JetBrains Mono", monospace;
+    }
+
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+    }
+
+    .typewriter {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: left;
+    }
+
+    .typewriter h1 {
+      color: #fff;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 100%
+      }
+    }
+
+    @keyframes blink-caret {
+
+      from,
+      to {
+        border-color: transparent
+      }
+
+      50% {
+        border-color: orange
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="typewriter">
+    <h1>Hi, I'm Ilia!</h1>
+    <h4>A backend java developer.</h4>
+    <p>
+      Links:
+      <br>
+      <a href="https://github.com/IliaSobolev">Github</a>
+      <br>
+      <a href="https://notes.bebrazawr.me">Notes</a>
+      <br><br>
+      Contacts:
+      <br>
+      Email: bebrazawr@proton.me
+    </p>
+  </div>
+</body>
